@@ -1,4 +1,4 @@
-For this project I created a random passowrd generator unsing 
+For this project I created a random passowrd generator using Java Script. 
 
 
 
