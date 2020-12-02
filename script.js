@@ -78,24 +78,8 @@ function generatePassword() {
     let randomNumber = Math.floor(Math.random() * cauldron.length -1);
     let temp = cauldron[randomNumber]
     result.push(temp)
-    console.log(`result: ${result}`)
   }
 
   return result.join('');
 }
 
-  
-  /* Loop through length times
-  
-        Generate random number between 0 and length of cauldron
-  
-        Create variable of cauldron[random]
-  
-        Add cauldron to result
-  
-   */
-  // return result.join('');
-
-  // for (let i = 0; i < length; i++); {
-  //   blank = Math.floor(Math.random () * cauldron.length -1);
-  //   final += cauldron [blank];
