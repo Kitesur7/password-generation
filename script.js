@@ -74,6 +74,16 @@ function generatePassword() {
 
   }
 
+  for (let i = 0; i <= length; i++) {
+    let randomNumber = Math.floor(Math.random() * cauldron.length -1);
+    let temp = cauldron[randomNumber]
+    result.push(temp)
+    console.log(`result: ${result}`)
+  }
+
+  return result.join('');
+}
+
   
   /* Loop through length times
   
@@ -89,6 +99,3 @@ function generatePassword() {
   // for (let i = 0; i < length; i++); {
   //   blank = Math.floor(Math.random () * cauldron.length -1);
   //   final += cauldron [blank];
-  // }
-  return result;
-}
